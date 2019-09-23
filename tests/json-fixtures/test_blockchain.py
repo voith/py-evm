@@ -167,6 +167,10 @@ SLOWEST_TESTS = {
     ('GeneralStateTests/stStaticCall/static_Return50000_2_d0g0v0.json', 'static_Return50000_2_d0g0v0_ConstantinopleFix'),  # noqa: E501
     ('GeneralStateTests/stSystemOperationsTest/CallRecursiveBomb0_OOG_atMaxCallDepth_d0g0v0.json', 'CallRecursiveBomb0_OOG_atMaxCallDepth_d0g0v0_Frontier'),  # noqa: E501
     ('GeneralStateTests/stSystemOperationsTest/CallRecursiveBomb0_OOG_atMaxCallDepth_d0g0v0.json', 'CallRecursiveBomb0_OOG_atMaxCallDepth_d0g0v0_Homestead'),  # noqa: E501
+    ('ValidBlocks/bcStateTests/randomStatetest94.json', 'randomStatetest94_Homestead'),  # noqa: E501
+    ('ValidBlocks/bcStateTests/randomStatetest94.json', 'randomStatetest94_Byzantium'),  # noqa: E501
+    ('ValidBlocks/bcStateTests/randomStatetest94.json', 'randomStatetest94_Constantinople'),  # noqa: E501
+    ('ValidBlocks/bcStateTests/randomStatetest94.json', 'randomStatetest94_ConstantinopleFix'),  # noqa: E501
 }
 
 
@@ -202,7 +206,6 @@ INCORRECT_UPSTREAM_TESTS = {
     ('GeneralStateTests/stSStoreTest/InitCollision_d0g0v0.json', 'InitCollision_d0g0v0_ConstantinopleFix'),  # noqa: E501
     ('GeneralStateTests/stSStoreTest/InitCollision_d1g0v0.json', 'InitCollision_d1g0v0_ConstantinopleFix'),  # noqa: E501
     ('GeneralStateTests/stSStoreTest/InitCollision_d3g0v0.json', 'InitCollision_d3g0v0_ConstantinopleFix'),  # noqa: E501
-    ('BlockchainTests/ValidBlocks/bcStateTests/randomStatetest94.json', 'randomStatetest94_ConstantinopleFix'),  # noqa: E501
 }
 
 

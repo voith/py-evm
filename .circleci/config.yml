@@ -167,10 +167,10 @@ workflows:
   test:
     jobs:
 #      - py36-benchmark
-#      - py36-native-blockchain-byzantium
-#      - py36-native-blockchain-constantinople
+      - py36-native-blockchain-byzantium
+      - py36-native-blockchain-constantinople
 #      - py36-native-blockchain-frontier
-#      - py36-native-blockchain-homestead
+      - py36-native-blockchain-homestead
       - py36-native-blockchain-petersburg
 #      - py36-native-blockchain-tangerine_whistle
 #      - py36-native-blockchain-spurious_dragon
